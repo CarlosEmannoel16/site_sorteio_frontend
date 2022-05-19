@@ -1,0 +1,21 @@
+.ButtonInitial {
+  width: 95%;
+  height: 35px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  border: none;
+  background: rgb(105, 117, 221);
+  background: radial-gradient(circle, rgba(105, 117, 221, 1) 49%, rgba(115, 85, 176, 1) 99%);
+}
+
+a{
+  width: auto;
+}
+
+
+@media (min-width: 800px){
+  button{
+    width: 45%;
+  }
+}

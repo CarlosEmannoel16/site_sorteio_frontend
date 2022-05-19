@@ -1,0 +1,43 @@
+.nav{
+  padding-top: 10px;
+  width: 100vw;
+  height: 30px;
+}
+
+.container{
+  width: 90%;
+  background-color: transparent;
+  margin:  0 auto;
+  
+}
+
+.container ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent ;
+  padding: 5px 20px;
+  border-bottom: .1em solid #25cd8950;
+  margin: 0;
+}
+
+.iconMenu{
+  font-size: 2em;
+}
+.container ul li {
+  color: #fff;
+  list-style: none;
+}
+
+.link{
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (min-width: 800px){
+  .nav{
+    width: 50%;
+    margin: 0 auto;
+  }
+}

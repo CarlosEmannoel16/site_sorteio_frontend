@@ -1,0 +1,7 @@
+.area_behind {
+  margin: 0;
+  background: rgb(103, 23, 205);
+  background: radial-gradient(circle, rgba(103,23,205,1) 49%, rgba(40,40,40,1) 99%);
+  padding-top: 20px;
+  height: 30vh;
+}

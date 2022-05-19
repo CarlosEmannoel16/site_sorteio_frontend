@@ -1,0 +1,11 @@
+.areaTickets {
+  padding-top:10%;
+  text-align: center;
+}
+
+@media (min-width: 460px) {
+ .areaTickets{
+   padding-top:45%;
+ }
+  
+}

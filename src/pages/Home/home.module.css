@@ -1,0 +1,11 @@
+.area_all{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.link{
+  width: 100vw;
+}
+
+

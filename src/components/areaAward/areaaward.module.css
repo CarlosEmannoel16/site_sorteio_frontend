@@ -1,0 +1,88 @@
+.area_award {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.imageAward {
+  width: 100%;
+  height:(100% + 50px);
+  position: relative;
+  top: -50px;
+  align-items: left;
+}
+
+.areaImageReward {
+  width: 40%;
+  height: 180px;
+  padding-left: 10px;
+}
+
+.areaInformationAward {
+  width: 60%;
+  height: 210px;
+  text-align: left;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.areaInformationAward h2{
+  font-size: 1em;
+}
+
+.areaInformationAward label{
+  font-size: .6em;
+  font-weight: 600;
+}
+
+.areaInformationAward span{
+  font-size: 1em;
+  font-weight: 700;
+}
+
+
+@media (min-width: 700px){
+  .area_award {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .imageAward {
+    width: 100%;
+    height:(100% + 50px);
+    position: relative;
+    top: -50px;
+    align-items: left;
+  }
+  
+  .areaImageReward {
+    width: 40%;
+    height: 180px;
+    padding-left: 10px;
+  }
+  
+  .areaInformationAward {
+    width: 60%;
+    height: 210px;
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .areaInformationAward h2{
+    font-size: 2em;
+  }
+  
+  .areaInformationAward label{
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  
+  .areaInformationAward span{
+    font-size: 1em;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,33 @@
+.buttonTicket{
+    width: 45px;
+    height: 45px;
+    background-color: green;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.6em;
+    margin: 1px;
+    cursor: pointer;
+}
+
+
+
+.free{
+  background-color: green;
+}
+
+.unavailable{
+  background-color: rgb(176, 167, 156);
+}
+
+.selected{
+  background-color: blue;
+}
+
+@media (min-width: 460px) {
+  .buttonTicket{
+    width: 60px;
+    height: 60px;
+  }
+   
+ }

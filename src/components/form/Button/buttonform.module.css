@@ -1,0 +1,10 @@
+.buttonForm{
+  width: 100%;
+  background-color: rgb(7, 206, 46);
+  border: none;
+  padding: 5px;
+  height: 50px;
+  color: #fff;
+  font-size: 15pt;
+  border-radius: 10px;
+}

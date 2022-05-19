@@ -1,0 +1,22 @@
+.area_validate{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.area_validate input[type="text"]{
+  width: 80%;
+  height: 2em;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.area_validate label{
+    margin-bottom: 20px;
+    color: #fff;  
+}

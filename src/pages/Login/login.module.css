@@ -1,0 +1,22 @@
+
+
+.area_all_login{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  background-image: radial-gradient(circle, rgba(26, 25, 28, 0.746) 6%, rgb(34, 15, 162) 99%);
+}
+
+.area_all_login form{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+
+}
+

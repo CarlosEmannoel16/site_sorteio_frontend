@@ -1,0 +1,56 @@
+.areaAllAward{
+  width: 98%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.titleAreaAward {
+  color: #fff;
+  font-size: .9em;
+  text-align: center;
+  font-weight: 300;
+  margin: 3.8em 0;
+}
+
+.informationTicket{
+  margin-top: 2em;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+.statusTicket{
+  width: 50%;
+  height: 100%;
+}
+
+
+.Textprice{
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.textGoPayment{
+  font-size: .9em;
+}
+
+.AreaPriceTicket{
+  width: 50%;
+  height: auto;
+  text-align: right;
+ 
+}
+
+@media (min-width: 700px){
+  .areaAllAward{
+    width: 50%;
+  
+  }
+}
